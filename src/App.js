@@ -94,11 +94,11 @@ function App() {
               </div>
               <div className="task-list">
                 <div className="left">
-                  <img src={GreenTick} alt="greeb" className="tick" />
+                  <img src={GreenTick} alt="green" className="tick" />
                   <div className="bar"></div>
                   <span className='task-container'>
                     <div className="task-item task-in-progress">Website development</div>
-                    <div className="mobile-in-progress">Completed 12/12</div>
+                    <div className="mobile-in-progress">In progress</div>
                   </span>
                 </div>
                 <div className="right">
@@ -111,7 +111,7 @@ function App() {
                   <div className="bar"></div>
                   <span className='task-container'>
                     <div className="task-item task-coming-soon">GDSC Launch</div>
-                    <div className="mobile-coming-soon">Completed 12/12</div>
+                    <div className="mobile-coming-soon">Coming soon</div>
                   </span>
                 </div>
                 <div className="right">
