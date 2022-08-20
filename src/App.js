@@ -20,8 +20,8 @@ function App() {
 
   useEffect(() => {
     if (window.screen.width < 769) {
-      setWidth(150);
-      setHeight(150)
+      setWidth(100);
+      setHeight(100)
     } else {
       setWidth(200);
       setHeight(200)
