@@ -38,7 +38,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <>
       <div className="split">
         <div className="container">
 
@@ -137,7 +137,7 @@ function App() {
             isPaused={false} />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
