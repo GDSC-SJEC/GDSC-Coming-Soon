@@ -1,38 +1,245 @@
-.App {
-  text-align: center;
+body {
+  background: url('./images/background.png') no-repeat fixed;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: 90px 60px 0px 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.split {
+  display: flex;
+  margin-bottom: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Heading section */
+.heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  width: 110px;
+  height: 80px;
+  transform: scale(1.5);
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.college-title {
+  font-size: 18px;
+}
+
+/* Content section */
+.container {
+  width: 50%;
+}
+
+.row {
   display: flex;
   flex-direction: column;
+}
+
+.task-heading {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+
+.task-list {
+  display: flex;
   align-items: center;
+}
+
+.task-item {
+  font-size: 22px;
+  color: #aaa;
+}
+
+.task-in-progress {
+  color: #fff;
+  font-weight: 600;
+}
+
+.task-coming-soon {
+  color: #eee;
+}
+
+.mobile-completed,
+.mobile-in-progress,
+.mobile-coming-soon {
+  display: none;
+}
+
+.left {
+  display: flex;
+  flex: 1;
+  text-align: left;
+  align-items: center;
+}
+
+.right {
+  text-align: left;
+  font-size: 18px;
+}
+
+.tick {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.bar {
+  width: 1px;
+  height: 60px;
+  background: #fff;
+  margin-right: 20px;
+}
+
+.completed {
+  color: #999;
+}
+
+.in-progress {
+  color: #fff;
+  font-weight: 600;
+}
+
+.coming-soon {
+  color: #aaa;
+}
+
+.tasks {
+  width: 90%;
+}
+
+.lead-image-container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.lead-image {
+  width: 450px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Footer section */
+.footer-text {
+  font-size: 28px;
+  font-weight: 600;
+  width: 50%;
+}
+
+.inner-footer {
+  display: flex;
+  align-items: center;
+}
+
+/* Resopnsive */
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 10px 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .heading {
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    width: 60px;
+    height: 40px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .college-title {
+    font-size: 12px;
+  }
+
+  .split {
+    margin: unset;
+  }
+
+  .lottie-animation {
+    width: 100%;
+    height: 140px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .task-item {
+    font-size: 18px;
+  }
+
+  .bar {
+    height: 75px;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .lead-image-container {
+    display: none;
+  }
+
+  .inner-footer {
+    flex-direction: column-reverse;
+  }
+
+  .footer-text {
+    font-size: 26px;
+    width: unset;
+  }
+
+  .mobile-completed {
+    color: #999;
+  }
+
+  .mobile-in-progress {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .mobile-coming-soon {
+    color: #aaa;
+  }
+
+
+  .mobile-completed,
+  .mobile-in-progress,
+  .mobile-coming-soon,
+  .task-item {
+    display: inline;
+  }
+
+  .mobile-completed,
+  .mobile-in-progress,
+  .mobile-coming-soon {
+    font-size: 12px;
+  }
+
+  .task-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .lead-image-container {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
   }
 }
