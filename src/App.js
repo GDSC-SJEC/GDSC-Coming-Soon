@@ -59,11 +59,11 @@ function App() {
                   <div className="bar"></div>
                   <span className='task-container'>
                     <div className="task-item">GDSC Lead Selection</div>
-                    <div className="mobile-completed">Completed 12/12</div>
+                    <div className="mobile-completed">Completed on 12/07</div>
                   </span>
                 </div>
                 <div className="right">
-                  <div className="completed">Completed 12/12</div>
+                  <div className="completed">Completed on 12/07</div>
                 </div>
               </div>
               <div className="task-list">
@@ -72,11 +72,11 @@ function App() {
                   <div className="bar"></div>
                   <span className='task-container'>
                     <div className="task-item">Finding domains</div>
-                    <div className="mobile-completed">Completed 12/12</div>
+                    <div className="mobile-completed">Completed on 31/07</div>
                   </span>
                 </div>
                 <div className="right">
-                  <div className="completed">Completed 12/12</div>
+                  <div className="completed">Completed on 31/07</div>
                 </div>
               </div>
               <div className="task-list">
@@ -85,11 +85,11 @@ function App() {
                   <div className="bar"></div>
                   <span className='task-container'>
                     <div className="task-item">Selection of core team and leads</div>
-                    <div className="mobile-completed">Completed 12/12</div>
+                    <div className="mobile-completed">Completed on 20/08</div>
                   </span>
                 </div>
                 <div className="right">
-                  <div className="completed">Completed 12/12</div>
+                  <div className="completed">Completed on 20/08</div>
                 </div>
               </div>
               <div className="task-list">
