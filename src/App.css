@@ -5,6 +5,13 @@ body {
   padding: 90px 60px 20px 100px;
 }
 
+.invisible-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 100px;
+}
+
 .split {
   display: flex;
   margin-bottom: 50px;
