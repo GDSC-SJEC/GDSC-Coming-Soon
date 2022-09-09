@@ -10,6 +10,7 @@ body {
   bottom: 0;
   right: 0;
   padding: 100px;
+  cursor: default;
 }
 
 .split {
