@@ -11,7 +11,7 @@ import BlueTick from './images/blue-tick.png';
 import RedTick from './images/red-tick.png';
 import GreenTick from './images/green-tick.png';
 import YellowTick from './images/yellow-tick.png';
-import EmptyTick from './images/empty-tick.png';
+import CurrentTick from './images/current-tick.png';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -98,25 +98,25 @@ function App() {
                   <img src={GreenTick} alt="green" className="tick" />
                   <div className="bar"></div>
                   <span className='task-container'>
-                    <div className="task-item task-in-progress">Website development</div>
+                    <div className="task-item task-completed">Website development</div>
+                    <div className="mobile-completed">Completed on 08/09</div>
+                  </span>
+                </div>
+                <div className="right">
+                  <div className="completed">Completed on 08/09</div>
+                </div>
+              </div>
+              <div className="task-list">
+                <div className="left">
+                  <img src={CurrentTick} alt="empty" className="tick" />
+                  <div className="bar"></div>
+                  <span className='task-container'>
+                    <div className="task-item task-in-progress">GDSC Launch</div>
                     <div className="mobile-in-progress">In progress</div>
                   </span>
                 </div>
                 <div className="right">
                   <div className="in-progress">In progress</div>
-                </div>
-              </div>
-              <div className="task-list">
-                <div className="left">
-                  <img src={EmptyTick} alt="empty" className="tick" />
-                  <div className="bar"></div>
-                  <span className='task-container'>
-                    <div className="task-item task-coming-soon">GDSC Launch</div>
-                    <div className="mobile-coming-soon">Coming soon</div>
-                  </span>
-                </div>
-                <div className="right">
-                  <div className="coming-soon">Coming soon</div>
                 </div>
               </div>
             </div>
@@ -129,7 +129,7 @@ function App() {
 
       <div className="footer">
         <div className="inner-footer">
-          <div className="footer-text">We're almost here!</div>
+          <div className="footer-text">We're finally here!</div>
           <Lottie options={defaultOptions}
             className="lottie-animation"
             height={width}
