@@ -112,11 +112,11 @@ function App() {
                   <div className="bar"></div>
                   <span className='task-container'>
                     <div className="task-item task-in-progress">GDSC Launch</div>
-                    <div className="mobile-in-progress">In progress</div>
+                    <div className="mobile-in-progress">Happening now!</div>
                   </span>
                 </div>
                 <div className="right">
-                  <div className="in-progress">In progress</div>
+                  <div className="in-progress">Happening now!</div>
                 </div>
               </div>
             </div>
